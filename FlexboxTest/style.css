@@ -1,0 +1,29 @@
+body {
+    background-color:#617487;
+}
+
+.parent {
+    width: 50%;
+    max-width: 400px;
+    height: auto;
+    background-color: tan;
+    display: flex; 
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin: auto;
+}
+
+.child {
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 100px;
+    border: 2px solid;
+    margin: 10px;
+    padding: auto;
+}
