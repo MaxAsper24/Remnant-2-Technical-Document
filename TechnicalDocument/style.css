@@ -18,6 +18,7 @@ html, body {
 }
 
 body {
+    min-height: 100vh;
     background-image: linear-gradient(rgb(200, 180, 180), rgb(140, 140, 140) 75%, rgb(130, 130, 130) 100%);
     background-color: rgb(130, 130, 130);
     background-repeat: no-repeat;
