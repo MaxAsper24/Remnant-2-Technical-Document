@@ -14,7 +14,6 @@ html, body {
 }
 
 body {
-    min-height: 100vh;
     background-image: linear-gradient(rgb(200, 180, 180), rgb(140, 140, 140) 75%, rgb(130, 130, 130) 100%);
     background-color: rgb(130, 130, 130);
     background-repeat: no-repeat;
@@ -66,7 +65,10 @@ a:hover {
     position: absolute;
     margin-left: 280px;
     margin-top: 50px;
-    padding: 15px;
+    padding-top: 45px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 100px;
 }
 
 section header {
@@ -93,7 +95,12 @@ code {
     padding-right: 2.5em;
 }
 
-img {
+.bold {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+figure > img {
     width: 300px;
     max-width: 100%;
     transform: scale(1.25);
@@ -103,4 +110,11 @@ img {
 
 figure {
     text-align: center;
+}
+
+.end-pic {
+    width: 60%;
+    max-width: 400px;
+    margin-top: 40px;
+    border-radius: 10px;
 }
